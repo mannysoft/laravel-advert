@@ -2,9 +2,9 @@
 
 namespace Adumskis\LaravelAdvert\Model;
 
-use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
 
-class AdvertCategoryMongo extends Model
+class AdvertCategoryMongo extends Eloquent
 {
     protected $fillable = ['type', 'width', 'height'];
     
