@@ -24,5 +24,6 @@
           "AdvMng": "Adumskis\\LaravelAdvert\\AdvertFacade"
         }
       }
-    }
+    },
+    "minimum-stability": "dev"
 }
